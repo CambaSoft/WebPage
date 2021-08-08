@@ -2,5 +2,10 @@
   "root": "public/",
   "clean_urls": false,
   "https_only": true,
-  "error_page": "error.html"
+  "error_page": "error.html",
+  "routes": {
+    "/assets/*": "/assets/",
+    "/home": "index.html",
+    "/**": "index.html"
+  }
 }
