@@ -5,7 +5,6 @@
   "error_page": "error.html",
   "routes": {
     "/assets/*": "/assets/",
-    "/home": "index.html",
-    "/**": "index.html"
+    "/home": "index.html"
   }
 }
