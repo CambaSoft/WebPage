@@ -4,7 +4,6 @@
   "https_only": true,
   "error_page": "error.html",
   "routes": {
-    "/assets/*": "/assets/",
-    "/home": "index.html"
+    "/**": "redirect.html"
   }
 }
